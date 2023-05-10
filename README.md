@@ -1,8 +1,8 @@
 # Exercise EV Production Code
 This repository is an example of what Production Code might be structured.
-- [ ] Batch Processing - Bronze
-- [ ] Batch Processing - Silver
-- [ ] Batch Processing - Gold
+- [x] Batch Processing - Bronze
+- [x] Batch Processing - Silver
+- [x] Batch Processing - Gold
 - [ ] Spark Streaming
 
 ## Quickstart
