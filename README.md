@@ -1,5 +1,5 @@
 # Exercise EV Production Code
-This repository is an example of what Production Code might be structured.
+This repository is an example of what Production Code might be structured. Browse it or run it!
 - [x] Batch Processing - Bronze
 - [x] Batch Processing - Silver
 - [x] Batch Processing - Gold
