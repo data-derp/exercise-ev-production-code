@@ -3,9 +3,9 @@ from os.path import basename
 from os.path import splitext
 from glob import glob
 
-basedir = "delta-lake"
+basedir = "."
 
-with open(f'{basedir}/requirements.txt') as f:
+with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
@@ -15,8 +15,8 @@ setup(
     author='Kelsey Beyer',
     author_email='kelseymok@gmail.com',
     url='https://github.com/data-derp/exercise-ev-productino-code',
-    packages=find_packages(f'{basedir}/src', exclude=('tests')),
-    package_dir={'': f'{basedir}/src'},
-    py_modules=[splitext(basename(path))[0] for path in glob(f'{basedir}/src/*.py')],
+    packages=find_packages('src', exclude=('tests')),
+    package_dir={'': 'src'},
+    py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
     install_requires=required
 )
