@@ -14,7 +14,7 @@ setup(
     description='Exercise EV Production Code Delta Lake',
     author='Kelsey Beyer',
     author_email='kelseymok@gmail.com',
-    url='https://github.com/data-derp/exercise-ev-productino-code',
+    url='https://github.com/data-derp/exercise-ev-production-code',
     packages=find_packages('src', exclude=('tests')),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
