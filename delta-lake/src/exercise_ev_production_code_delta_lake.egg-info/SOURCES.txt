@@ -1,8 +1,0 @@
-README.md
-setup.py
-src/bronze.py
-src/exercise_ev_production_code_delta_lake.egg-info/PKG-INFO
-src/exercise_ev_production_code_delta_lake.egg-info/SOURCES.txt
-src/exercise_ev_production_code_delta_lake.egg-info/dependency_links.txt
-src/exercise_ev_production_code_delta_lake.egg-info/requires.txt
-src/exercise_ev_production_code_delta_lake.egg-info/top_level.txt
